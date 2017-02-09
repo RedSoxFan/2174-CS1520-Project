@@ -1,0 +1,38 @@
+form#contact {
+	padding: 1%;
+	width: 98%;
+}
+
+form#contact label {
+	font-weight: bold;
+}
+
+form#contact input[type="text"],
+form#contact input[type="email"] {
+	clear: both;
+	display: inline-block;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	width: 100%;
+}
+
+form#contact input[type="submit"] {
+	background: none;
+	background-color: #666;
+	border: none;
+	border-color: #555;
+	border-radius: 25px;
+	color: #fff;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	padding: 2%;
+	width: 100%;
+}
+
+form#contact textarea {
+	clear: both;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	min-height: 200px;
+	width: 100%;
+}

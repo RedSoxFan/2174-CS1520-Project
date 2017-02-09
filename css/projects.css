@@ -1,0 +1,13 @@
+section.project {
+	padding: 2%;
+	border-bottom: 2px solid #333;
+	border-radius: 25px;
+}
+
+section.project:last-child {
+	border-bottom: 0;
+}
+
+section.project h3 {
+	margin: 0;
+}
