@@ -8,31 +8,37 @@ form#contact label {
 }
 
 form#contact input[type="text"],
-form#contact input[type="email"] {
-	clear: both;
-	display: inline-block;
-	margin-bottom: 1%;
-	margin-top: 1%;
-	width: 100%;
-}
-
-form#contact input[type="submit"] {
+form#contact input[type="email"],
+form#contact input[type="submit"],
+form#contact textarea {
 	background: none;
 	background-color: #666;
-	border: none;
-	border-color: #555;
+	border: 2px solid #333;
 	border-radius: 25px;
+	box-sizing: border-box;
+	clear: both;
 	color: #fff;
 	margin-bottom: 1%;
 	margin-top: 1%;
-	padding: 2%;
+	max-width: 100%;
+	min-width: 100%;
+	padding: 1%;
 	width: 100%;
 }
 
+form#contact input[type="text"],
+form#contact input[type="email"] {
+	padding: 0.5%;
+}
+
 form#contact textarea {
-	clear: both;
-	margin-bottom: 1%;
-	margin-top: 1%;
 	min-height: 200px;
-	width: 100%;
+}
+
+form#contact input[type="text"]:focus,
+form#contact input[type="email"]:focus,
+form#contact input[type="submit"]:focus,
+form#contact textarea:focus {
+	outline: none;
+	border: 2px solid #ccc;
 }

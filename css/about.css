@@ -1,5 +1,54 @@
-img.photo {
-	background-color: #111;
-	float: right;
-	min-height: 200px;
+.about {
+	color: #ddd;
+}
+
+.about > h3 {
+	color: #fff;
+	margin-left: 1%;
+}
+
+.about > b,
+.about > ul {
+	margin-left: 3%;
+}
+
+.about a {
+	color: #ff9000;
+	text-decoration: none;
+}
+
+.about a:hover {
+	color: #ff9000;
+	text-decoration: underline;
+}
+
+.about b {
+	color: #fff;
+}
+
+.about i {
+	color: #999;
+}
+
+.about ul {
+  -webkit-padding-start: 0;
+}
+
+.about > ul > li {
+	list-style-type: none;
+	list-style-position: inside;
+	margin-bottom: 10px;
+}
+
+.about ul.bullets li {
+	list-style: none inside;
+}
+
+.about ul.bullets li:before {
+	content: '\2022';
+	padding: 1%;
+}
+
+.about ul.small-bottom-margin li {
+	margin-bottom: 2px;
 }
