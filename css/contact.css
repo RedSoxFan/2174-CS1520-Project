@@ -42,3 +42,19 @@ form#contact textarea:focus {
 	outline: none;
 	border: 2px solid #ccc;
 }
+
+section.submitted {
+	background: #080;
+	border-radius: 25px;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 100%;
+}
+
+section.error {
+	background: #800;
+	border-radius: 25px;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 100%;
+}

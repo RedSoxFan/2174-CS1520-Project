@@ -1,7 +1,16 @@
+section.projgroup {
+	border-bottom: 3px solid #333;
+	margin-bottom: 10px;
+}
+
+section.projgroup:last-of-type {
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+
 section.project {
 	padding: 2%;
-	border-bottom: 2px solid #333;
-	border-radius: 25px;
+	border-bottom: 1px solid #333;
 }
 
 section.project:last-child {
@@ -10,4 +19,17 @@ section.project:last-child {
 
 section.project h3 {
 	margin: 0;
+}
+
+section ul {
+	-webkit-margin-after: 0;
+}
+
+a {
+	color: #ff9000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
