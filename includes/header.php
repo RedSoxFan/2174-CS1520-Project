@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Brian Ashworth</title>
-		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="/css/main.css" />
 		<?php
 			$base = basename($_SERVER['SCRIPT_NAME'], '.php');
 			if (file_exists('css/'.$base.'.css')) {
-				echo "<link rel=\"stylesheet\" href=\"css/${base}.css\" />";
+				echo "<link rel=\"stylesheet\" href=\"/css/${base}.css\" />";
 			}
 		?>
 	</head>
@@ -18,13 +18,13 @@
 			<nav>
 				<ul>
 					<li>
-						<a href="index.php">About</a>
+						<a href="/">About</a>
 					</li>
 					<li>
-						<a href="projects.php">Projects</a>
+						<a href="/projects">Projects</a>
 					</li>
 					<li>
-						<a href="contact.php">Contact</a>
+						<a href="/contact">Contact</a>
 					</li>
 				</ul>
 			</nav>

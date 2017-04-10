@@ -15,9 +15,9 @@ if (isset($_POST['subject'])
 		$_POST['name'], $_POST['email'], $_POST['message']);
 
 	if ($insert->execute()) {
-		$status = "?submitted";
+		$status = "submitted";
 	} else {
-		$status = "?error=".$insert->error;
+		$status = "error/".$insert->error;
 	}
 	
 	$insert->close();
@@ -25,4 +25,4 @@ if (isset($_POST['subject'])
 	include('includes/mysql_deinit.php');
 }
 
-header('location: contact.php'.$status);
+header('location: contact/'.$status);
