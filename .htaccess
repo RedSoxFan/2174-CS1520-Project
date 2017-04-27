@@ -1,5 +1,9 @@
+DirectoryIndex index.php
+ErrorDocument 404 /
+
 RewriteEngine On
 RewriteRule "^projects$" "projects.php"
 RewriteRule "^contact$" "contact.php"
 RewriteRule "^contact/submitted$" "contact.php?submitted"
 RewriteRule "^contact/error/(.+)$" "contact.php?error=$1"
+RewriteRule "^process$" "process.php"

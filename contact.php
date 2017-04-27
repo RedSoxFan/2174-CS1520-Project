@@ -12,24 +12,31 @@
 	</section>
 <?php } ?>
 
-<form id="contact" action="process.php" method="POST">
+<form id="contact" action="/process" method="POST">
 	<label for="subject">Subject</label>
-	<input name="subject" type="text" />
+	<span id="reqsubject" class="required">This field is required</span>
+	<input id="subject" name="subject" type="text" />
 	<br />
 
 	<label for="name">Name</label>
-	<input name="name" type="text" />
+	<span id="reqname" class="required">This field is required</span>
+	<input id="name" name="name" type="text" />
 	<br />
 
 	<label for="email">Email</label>
-	<input name="email" type="text" />
+	<span id="reqemail" class="required">This field is required</span>
+	<input id="email" name="email" type="text" />
 	<br />
 
 	<label for="message">Message</label>
-	<textarea name="message"></textarea>
+	<span id="reqmessage" class="required">This field is required</span>
+	<textarea id="message" name="message"></textarea>
 	<br />
 
 	<input type="submit" />
 </form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/contact.js"></script>
 
 <?php include('includes/footer.php'); ?>

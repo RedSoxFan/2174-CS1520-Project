@@ -13,7 +13,7 @@
 					The first patch was to allow for the <i>pivot_root</i> system call to be compiled out. <i>pivot_root</i> allows for the root of a filesystem to be moved to a different location and replaced by a different root. For situations where this is not needed, 614 bytes can be saved by compiling it out. The thread can be viewed <a href="https://lkml.org/lkml/2017/2/24/749" target="_blank">here</a>.
 			</li>
 			<li>
-					The second patch is to allow for extended attribute (<i>xattr</i>) support to be compiled out. xattr's are used by filesystems and userspaces for various tasks. If xattr's are not needed, 4020 bytes can be saved by compiling support for it out. This includes 12 system calls and 15 functions. The thread for this <b><i>is coming soon</i></b>.
+					The second patch is to allow for extended attribute (<i>xattr</i>) support to be compiled out. xattr's are used by filesystems and userspaces for various tasks. If xattr's are not needed, 4020 bytes can be saved by compiling support for it out. This includes 12 system calls and 15 functions. The thread for this can be viewed <a href="https://lkml.org/lkml/2017/4/11/831">here</a>.
 			</li>
 		</ul>
 	</section>

@@ -31,7 +31,7 @@
 			<b>University of Pittsburgh, Pittsbugh, PA</b><br />
 			Bachelor of Science in Computer Science<br />
 			GPA 3.33 - Computer Science GPA 3.73<br />
-			April 2017 <i>(Expected Graduatation Date)</i>
+			April 2017
 		</li>
 		<li>
 			<b>Nashua Comunity College, Nashua, NH</b><br />

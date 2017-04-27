@@ -1,0 +1,10 @@
+For the second project, I did the following:
+- Changed static HTML files to PHP files
+- Changed to using header and footer includes
+- Added content to projects.php
+- Added backend for contact.php (process.php) to store in a database
+- Added javascript to contact.php for errors
+- Added .htaccess and rewrite rules for clean URLs
+
+The source for the first project can be viewed at:
+https://github.com/redSoxFan/2174-CS1520-Project/tree/project1
